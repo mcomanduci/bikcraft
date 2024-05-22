@@ -78,7 +78,10 @@ function trocarImagem(e) {
   media && galeriaContainer.prepend(img);
 }
 
-galeria.forEach((img) => img.addEventListener("click", trocarImagem));
+galeria.forEach((img) => {
+  // img.style.cursor = "pointer";
+  img.addEventListener("click", trocarImagem);
+});
 
 // animacao
 window.SimpleAnime && new SimpleAnime();
