@@ -7,6 +7,8 @@
     <title>Magic | Bikcraft</title>
     <meta name="description" content="Magic." />
 
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/svg+xml" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +16,9 @@
       rel="stylesheet"
     />
 
-    <link rel="preload" href="../style.min.css" as="style" />
-    <link rel="stylesheet" href="../style.min.css" />
+    <!-- <link rel="preload" href="../style.min.css" as="style" /> -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/script.js"></script>
   </head>
 
   <body id="bicicleta">
@@ -46,9 +49,9 @@
       </div>
       <div class="bicicleta container">
         <div class="bicicleta-imagens">
-          <img src="../img/bicicleta/nimbus2.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus1.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus3.jpg" alt="" />
+          <img src="../img/bicicleta/nimbus2.jpg" alt="bicicleta preta" />
+          <img src="../img/bicicleta/nimbus1.jpg" alt="bicicleta preta" />
+          <img src="../img/bicicleta/nimbus3.jpg" alt="bicicleta preta" />
         </div>
         <div class="bicicleta-conteudo">
           <p class="font-2-l cor-5">
@@ -57,7 +60,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=magic"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs cor-6"
               ><img src="../img/icones/entrega.svg" alt="" /> entrega em 5
               dias</span
